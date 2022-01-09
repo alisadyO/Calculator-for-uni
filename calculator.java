@@ -15,8 +15,11 @@ public static void main (String []args){
 sc = new Scanner (System.in);
 
 type();
+
+while(true){
+
 System.out.println();
-JOptionPane.showMessageDialog(null,"Hi Welcome To Our Calculator ");
+JOptionPane.showMessageDialog(null,"Hi Welcome Choose The Type Of The Calculator ");
 
 System.out.println(" Enter The Number For Type of the Calculator That You want:  ");
  
@@ -30,7 +33,7 @@ System.out.println(" Enter The Number For Type of the Calculator That You want: 
     }
 
 
-while(Ctype > 7){
+while(Ctype > 7  || Ctype==0){
     
 while (true ){
         System.out.println("Please Enter Again");
@@ -44,6 +47,11 @@ while (true ){
 
 
     }
+
+
+
+
+
 
 
 
@@ -82,6 +90,7 @@ switch(Ctype){
 
 
 
+}
 
 
 
@@ -361,7 +370,7 @@ System.out.println();
     System.out.println();
     System.out.println("The Result is " + pow3);
     
-    
+
     int np =Integer.parseInt( JOptionPane.showInputDialog(null,"TO Try It Again Enter 1 to Close Enter 0"));
     if(np ==1 ){
 
