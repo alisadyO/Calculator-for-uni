@@ -131,6 +131,15 @@ System.out.println();
 System.out.println("The Result is " + sum);
 System.out.println();
 
+int np =Integer.parseInt( JOptionPane.showInputDialog(null,"TO Try It Again Enter 1 to Close Enter 0"));
+if(np ==1 ){
+
+    continue;
+}
+if(np == 0){
+    break;
+}
+
 
 }
 
@@ -170,6 +179,14 @@ static void sub(){
     System.out.println("The Result is " + sub);
     System.out.println();
     
+    int np =Integer.parseInt( JOptionPane.showInputDialog(null,"TO Try It Again Enter 1 to Close Enter 0"));
+    if(np ==1 ){
+
+        continue;
+    }
+    if(np == 0){
+        break;
+    }
     
     }
     
@@ -204,7 +221,16 @@ static void multi (){
     System.out.println("The Result is " + multi);
     System.out.println();
     
+    int np =Integer.parseInt( JOptionPane.showInputDialog(null,"TO Try It Again Enter 1 to Close Enter 0"));
+    if(np ==1 ){
+
+        continue;
+    }
+    if(np == 0){
+        break;
+    }
     
+
     }
     
 }
@@ -234,6 +260,15 @@ public static void divi(){
     
     System.out.println("The Result is " + div);
     System.out.println();
+
+    int np =Integer.parseInt( JOptionPane.showInputDialog(null,"TO Try It Again Enter 1 to Close Enter 0"));
+    if(np ==1 ){
+
+        continue;
+    }
+    if(np == 0){
+        break;
+    }
     
     
     }
@@ -258,7 +293,14 @@ double abs2 = Math.abs(abs1);
 System.out.println();
 System.out.println("The Result is " + abs2);
 
+int np =Integer.parseInt( JOptionPane.showInputDialog(null,"TO Try It Again Enter 1 to Close Enter 0"));
+if(np ==1 ){
 
+    continue;
+}
+if(np == 0){
+    break;
+}
 
 }
 }
@@ -280,7 +322,14 @@ double sqr2 = Math.sqrt(sqr1);
 System.out.println();
 System.out.println("The Result is " + sqr2);
 
+int np =Integer.parseInt( JOptionPane.showInputDialog(null,"TO Try It Again Enter 1 to Close Enter 0"));
+if(np ==1 ){
 
+    continue;
+}
+if(np == 0){
+    break;
+}
 
 }
 
@@ -313,6 +362,14 @@ System.out.println();
     System.out.println("The Result is " + pow3);
     
     
+    int np =Integer.parseInt( JOptionPane.showInputDialog(null,"TO Try It Again Enter 1 to Close Enter 0"));
+    if(np ==1 ){
+
+        continue;
+    }
+    if(np == 0){
+        break;
+    }
     
     }
     
