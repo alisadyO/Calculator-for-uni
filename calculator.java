@@ -116,7 +116,7 @@ switch(Ctype){
 
 
 
-
+// method lo ko krdnway
 
 static void add (){
 JOptionPane.showMessageDialog(null,"Welcome to Addition Calculator");
@@ -159,7 +159,7 @@ if(np == 0){
 
 
 
-
+// method lo kamkrdnway
 
 
 
@@ -204,7 +204,7 @@ static void sub(){
 }
 
 
-
+// method lo jaran krden
 
 static void multi (){
 
@@ -245,7 +245,7 @@ static void multi (){
 }
 
 
-
+// method lo dabashe
 
 public static void divi(){
 
@@ -286,6 +286,7 @@ public static void divi(){
 
 }
 
+ // method lo bahay rwt
 
 static void ABS(){
 
@@ -315,7 +316,7 @@ if(np == 0){
 }
 
 
-
+// method lo rage
 static void SQRT(){
 
     JOptionPane.showMessageDialog(null,"Welcome to Square Root Calculator");
@@ -344,7 +345,7 @@ if(np == 0){
 
 }
 
-
+// method lo twane
 
 static void POW(){
 
@@ -404,7 +405,7 @@ System.out.println();
 
 
 
-
+// type hasebakay lo desing 
 
 
 static void  type (){
