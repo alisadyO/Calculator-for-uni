@@ -36,13 +36,13 @@ System.out.println(" Enter The Number For Type of the Calculator That You want: 
   Ctype = sc .nextInt();
 
 
-while(Ctype > 7  || Ctype==0 ){
+while(Ctype > 7  || Ctype==0 || Ctype < 0){
 
 while (true ){
         System.out.println("Please Enter A Number From 1-7");
          Ctype = sc .nextInt();
 
-         if(Ctype <=7){
+         if(Ctype <=7 && Ctype > 0){
              break;
          }
         }
